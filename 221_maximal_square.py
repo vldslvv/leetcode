@@ -39,6 +39,11 @@ class Solution:
 
         return sq_len
 
+    def maximalSquare(self, matrix: List[List[str]]) -> int:
+        # Start from bottom-right square
+        m = [[-1 * len(matrix[0])] for _ in range(len(matrix))]
+        pass
+
         
 
 s = Solution()
